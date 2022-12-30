@@ -1,0 +1,51 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "题库"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的信息"
+			}
+		}, {
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "刷题设置"
+			}
+		}, {
+			"path": "pages/prac/prac",
+			"style": {
+				"navigationBarTitleText": "认真做题"
+			}
+		}, {
+			"path": "pages/tiku/tiku",
+			"style": {
+				"navigationBarTitleText": "导入题库"
+			}
+		}
+	    ,{
+            "path" : "pages/tlist/tlist",
+            "style" : {
+				"navigationBarTitleText": "我的题库"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#0faeff",
+		"backgroundColor": "#fbf9fe"
+	}
+}
